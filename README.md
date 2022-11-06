@@ -30,3 +30,5 @@ https://kit.fontawesome.com
 https://code.jquery.com/jquery-3.6.1.min.js
 
 https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js
+
+https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap
