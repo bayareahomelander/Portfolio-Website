@@ -23,7 +23,7 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 
 
-Resources Used:
+Libraries Used:
 
 https://kit.fontawesome.com
 
