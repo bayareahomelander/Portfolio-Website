@@ -5,7 +5,7 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 ![Screenshot 2022-11-06 at 3 14 45 PM](https://user-images.githubusercontent.com/110600178/200200784-613f5b30-dae9-4972-a34e-ddb129b5edcb.png)
 
-*This is the full layout of website's homepage - brief greeting, homepage wallpaper, a back-to-top icon at lower right hand corner, four icons that have links embedded and navigation bar at the top with three quick links. The 'Data Analyst' is one of three strings that are supposed to show up, and it has a different font since it's designed to change automatically with a typing animation.*
+*This is the full layout of website's homepage - brief greeting, homepage wallpaper, a back-to-top icon at lower right hand corner, four icons that have links embedded and navigation bar at the top with three quick links. The 'ML Enthusiast' is one of three strings that are supposed to show up, and it has a different font since it's designed to change automatically with a typing animation.*
 
 
 <img width="496" alt="Screenshot 2022-11-06 at 3 16 41 PM" src="https://user-images.githubusercontent.com/110600178/200200763-23021760-946e-44bf-bd2a-daaefef6c210.png">
