@@ -25,7 +25,7 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 <img width="1045" alt="Screenshot 2022-11-06 at 3 15 32 PM" src="https://user-images.githubusercontent.com/110600178/200200794-bcc8c386-906f-4898-9469-0517b1be343e.png">
 
-*5. This section of the website contains some of my past personal projects, they are displayed as separate cards while each has a short introduction regarding the main idea of project. The text automatically scales up while the background blends in when hovered.*
+*5. This section of the website contains some of my past personal projects, they are displayed as separate cards while each has a short introduction regarding the main idea of project. The text automatically scales up while the background blends in when hovered (See the card in the middle for reference).*
 
 
 
