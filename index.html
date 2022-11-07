@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2882d2b845.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+
+<body>
+    <div class="scroll">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="https://www.4399.com">Portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Hi! I'm</div>
+                <div class="text2">Paco Sun</div>
+                <div class="text3">and I'm an</div>
+                <div class="text4">Aspiring <span class="typing"></span></div>
+            <i class="fa-solid fa-phone"></i>
+            <a href="https://www.github.com/bayareahomelander?tab=repositories" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/weichen-sun-9b7282242/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i></a>
+            <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="/Users/paco/Downloads/IMG_0370.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <p>Welcome to my personal website. As a cognitive psychology graduate, I am deeply interested in data analysis.<br><br>The experience and courses I have taken during college gave me a firm understanding of programming and data science - machine learning, Python, Java, software construction, and more.<br><br>My goal is to develop a career in the tech industry, help people better understand data and convert complex concepts into plain words.</p>
+                    <a href="/Users/paco/Downloads/Paco Resume.pdf">Download Resume in PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="project-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="text">Neural Network Tinder Bot</div>
+                        <p>CNN enables the model to user's preference and swipe left/right with reasonable accuracy.<br><br>The project communicates with Tinder API and retrieves information of users with a predefined radius.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-basketball"></i>
+                        <div class="text">Predictive Model: NBA MVP</div>
+                        <p>This project uses Python to scrape player data online for the past 21 years.<br><br>Performs data cleaning on dataset and trains the machine learning model for MVP prediction.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-clipboard"></i>
+                        <div class="text">iOS Apps (Note & Quiz)</div>
+                        <p>This project contains two independent apps while both are built using Swift, SwiftUI and follow the MVVM design pattern.<br><br>Both applications are fully functional with multiple layers intereacting within the app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
