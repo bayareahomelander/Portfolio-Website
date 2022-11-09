@@ -22,8 +22,7 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 *3. This will show up if the menu bar icon is clicked when viewed on a smaller screen. The menu bar turns into a close icon.*
 
-
-<img width="1274" alt="Screenshot 2022-11-07 at 3 03 00 AM" src="https://user-images.githubusercontent.com/110600178/200294946-835909da-0286-4fb3-bd5c-7501c28aced8.png">
+![Screenshot 2022-11-09 at 1 04 11 AM](https://user-images.githubusercontent.com/110600178/200786753-a2b8e7ab-145c-4599-9666-ae25c35aa448.png)
 
 *4. Here is a quick self-introduction, and a photo on the left-hand side. Once clicked, the download button would redirect to a new tab with the resume available for download in .pdf version. The button would blend into the website's background when hovered.*
 
