@@ -2,7 +2,7 @@
 
 This is a fully-functional, interactive personal portfolio website. The frontend is built using HTML, CSS and JavaScript; contains a multitude of features such as embedded external links, animation (jQuery), responsive media (layouts automatically adjust as the window resizes). Below are screenshots of some of the features.
 
-**2022-11-08: Updated redirect link for Download Resume button: file can be downloaded even if not in local disk; added popup windows for phone and email when icons are clicked.**
+**2022-11-08: Updated redirect link for Download Resume button: file can be downloaded even if file is not in local disk; added popup windows for phone and email when icons are clicked.**
 
 **2022-11-07: Project is still under construction. More features to be added.**
 
