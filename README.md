@@ -29,9 +29,11 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 ![Screenshot 2022-11-09 at 12 55 45 AM](https://user-images.githubusercontent.com/110600178/200784991-13bd6184-7cac-48de-818e-3a1eaa0594c6.png)
 
-*5. This section of the website contains some of my past personal projects, they are displayed as separate *slidable* cards while each has a short introduction regarding the main idea of project. Each card has external hyperlink embedded, will redirect to corresponding GitHub repo once clicked. The text automatically scales up while the background blends in when hovered.*
+*5. This section of the website contains some of my past personal projects, they are displayed as separate ***slidable*** cards while each has a short introduction regarding the main idea of project. Each card has external hyperlink embedded, will redirect to corresponding GitHub repo once clicked. The text automatically scales up while the background blends in when hovered.*
 
+![Screenshot 2022-11-09 at 12 59 47 AM](https://user-images.githubusercontent.com/110600178/200786069-fe6b719d-03cc-4f0a-985e-300d794e6708.png)
 
+*6. This section shows past work experiences (company, time period and title) and college (name, degree) in the form of timeline. Education and professional experiences are designed to be on different side of the line.*
 
 **Libraries Used:**
 
