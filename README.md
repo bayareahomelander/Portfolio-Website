@@ -6,7 +6,7 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 **2022-11-09: Redesigned 'Projects' section, it's now shown as a set of slidable cards with links to GitHub repo embedded (see 5); added new 'Timeline' section, which shows past experiences and university graduation date; added a few more reference links at the end of file.**
 
-**2022-11-08: Updated redirect link for Download Resume button: file can be downloaded even if file is not in local disk; added popup windows for phone and email when icons are clicked.**
+**2022-11-08: Updated redirect link for Download Resume button: file is uploaded to the cloud and can be downloaded everywhere; added popup windows for phone and email when icons are clicked.**
 
 **2022-11-07: Project is still under construction. More features to be added.**
 
