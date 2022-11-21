@@ -2,6 +2,8 @@
 
 This is a fully-functional, interactive personal portfolio website. The frontend is built using HTML, CSS and JavaScript; contains a multitude of features such as embedded external links, animation (jQuery), responsive media (layouts automatically adjust as the window resizes). Below are screenshots of some of the features.
 
+**2022-11-21: Added darkmode: website will now automatically change its tone to match system settings; added different wallpapers and changed button colors accordingly; fixed the bug where the menu won't disapper when the options are clicked.**
+
 **2022-11-10: Added shawdow effect for buttons and cards; added new color (Hex: #5879cc) for cards and buttons when hovered: no longer blends into background color; popup prompts with phone number and email address will now show up when corresponding icons are clicked.**
 
 **2022-11-09: Redesigned 'Projects' section, it's now shown as a set of slidable cards with links to GitHub repo embedded (see 5); added new 'Timeline' section, which shows past experiences and university graduation date; added a few more reference links at the end of file.**
