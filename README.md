@@ -17,7 +17,6 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 *1. This is the full layout of the website's homepage (in darkmode) - a brief greeting, homepage wallpaper, a back-to-top icon at the lower right-hand corner, four icons that have links embedded, and a navigation bar at the top with three quick links. The 'Software Engineer' is one of three strings that are supposed to show up, and it has a different font as it's designed to change automatically with a typing animation.*
 
-
 <img width="496" alt="Screenshot 2022-11-06 at 3 16 41 PM" src="https://user-images.githubusercontent.com/110600178/200200763-23021760-946e-44bf-bd2a-daaefef6c210.png">
 
 *2. This would be the website layout if one were to view it on a smartphone - the website is resized to be small-screen friendly. The quick links at the upper right-hand corner turn into a menu bar for a better experience.*
@@ -26,9 +25,9 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 
 *3. This will show up if the menu bar icon is clicked when viewed on a smaller screen. The menu bar turns into a close icon.*
 
-![Screenshot 2022-11-09 at 1 04 11 AM](https://user-images.githubusercontent.com/110600178/200786753-a2b8e7ab-145c-4599-9666-ae25c35aa448.png)
+![image](https://user-images.githubusercontent.com/110600178/203004098-6219aff5-a868-4849-889c-27c4376bc55d.png)
 
-*4. Here is a quick self-introduction, and a photo on the left-hand side. Once clicked, the download button would redirect to a new tab with the resume available for download in .pdf version. The button would blend into the website's background when hovered.*
+*4. Here is a quick self-introduction (in light mode), and a photo on the left-hand side. Once clicked, the download button would redirect to a new tab with the resume available for download in .pdf version. The button would blend into the website's background when hovered.*
 
 ![Screenshot 2022-11-09 at 12 55 45 AM](https://user-images.githubusercontent.com/110600178/200784991-13bd6184-7cac-48de-818e-3a1eaa0594c6.png)
 
