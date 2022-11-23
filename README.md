@@ -13,29 +13,25 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 **2022-11-07: Project is still under construction. More features to be added.**
 
 
-![Screenshot 2022-11-21 at 12 34 07 AM](https://user-images.githubusercontent.com/110600178/203003124-edc1aa20-83b7-47eb-a76f-47de6e228f1c.png)
+![image](https://user-images.githubusercontent.com/110600178/203602617-c35c2499-1cee-4cc2-b1c4-eef49638aa0c.png)
 
 *1. This is the full layout of the website's homepage (in darkmode) - a brief greeting, homepage wallpaper, a back-to-top icon at the lower right-hand corner, four icons that have links embedded, and a navigation bar at the top with three quick links. The 'Software Engineer' is one of three strings that are supposed to show up, and it has a different font as it's designed to change automatically with a typing animation.*
 
-<img width="496" alt="Screenshot 2022-11-06 at 3 16 41 PM" src="https://user-images.githubusercontent.com/110600178/200200763-23021760-946e-44bf-bd2a-daaefef6c210.png">
+![image](https://user-images.githubusercontent.com/110600178/203602440-26ef459f-6596-438f-9c3c-084058ce1f92.png)
 
 *2. This would be the website layout if one were to view it on a smartphone - the website is resized to be small-screen friendly. The quick links at the upper right-hand corner turn into a menu bar for a better experience.*
 
-![Screenshot 2022-11-09 at 1 05 19 AM](https://user-images.githubusercontent.com/110600178/200787856-69498ea0-e070-4048-a34b-07b4d3d95e4b.png)
+![image](https://user-images.githubusercontent.com/110600178/203602869-936d0108-1a99-4faa-8ac8-9f0e566a3ec0.png)
 
-*3. This will show up if the menu bar icon is clicked when viewed on a smaller screen. The menu bar turns into a close icon.*
+*3. Here is a quick self-introduction (in light mode), and a photo on the left-hand side. Once clicked, the download button would redirect to a new tab with the resume available for download in .pdf version. The button would blend into the website's background when hovered.*
 
-![image](https://user-images.githubusercontent.com/110600178/203004098-6219aff5-a868-4849-889c-27c4376bc55d.png)
+![image](https://user-images.githubusercontent.com/110600178/203603379-fcdeecc1-44a0-43d4-81bb-8d5cc4456eb3.png)
 
-*4. Here is a quick self-introduction (in light mode), and a photo on the left-hand side. Once clicked, the download button would redirect to a new tab with the resume available for download in .pdf version. The button would blend into the website's background when hovered.*
+*4. This section of the website contains some of my past personal projects, they are displayed as separate ***slidable*** cards while each has a short introduction regarding the main idea of project. Each card has external hyperlink embedded, will redirect to corresponding GitHub repo once clicked. The text automatically scales up while the background blends in when hovered.*
 
-![Screenshot 2022-11-09 at 12 55 45 AM](https://user-images.githubusercontent.com/110600178/200784991-13bd6184-7cac-48de-818e-3a1eaa0594c6.png)
+![image](https://user-images.githubusercontent.com/110600178/203603193-9fffd3b0-9cca-488f-bab3-111d71778410.png)
 
-*5. This section of the website contains some of my past personal projects, they are displayed as separate ***slidable*** cards while each has a short introduction regarding the main idea of project. Each card has external hyperlink embedded, will redirect to corresponding GitHub repo once clicked. The text automatically scales up while the background blends in when hovered.*
-
-![Screenshot 2022-11-09 at 12 59 47 AM](https://user-images.githubusercontent.com/110600178/200786069-fe6b719d-03cc-4f0a-985e-300d794e6708.png)
-
-*6. This section shows past work experiences (company, time period and title) and college (name, degree) in the form of timeline. Education and professional experiences are designed to be on different side of the line.*
+*5. This section shows past work experiences (company, time period and title) and college (name, degree) in the form of timeline. Education and professional experiences are designed to be on different side of the line.*
 
 **Libraries Used:**
 
