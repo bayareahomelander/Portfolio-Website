@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <script src="https://kit.fontawesome.com/2882d2b845.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <div class="scroll">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <script src="project.js"></script>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="/Users/paco/Desktop/Website/main page/index.html" target="_parent">Paco Portfolio</a></div>
+            <ul class="menu" id="menu">
+                <li><a href="/Users/paco/Desktop/Website/main page/index.html" target="_parent">Home</a></li>
+                <li><a href="#tinder">Tinder</a></li>
+                <li><a href="#nba">NBA</a></li>
+                <li><a href="#">LeetCode</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tinder" id="tinder">
+        <div class="max-width">
+            <h2 class="title">0. Neural Network Tinder AI</h2>
+            <div class="tinder-content">
+                <img id="first" src="https://raw.githubusercontent.com/joelbarmettlerUZH/auto-tinder/master/resources/banner.png">
+                <p>The AI was built to train an API using Python and Google's TensorFlow, the bot learns user's preferences and automatically swipes left/right.<br><br>0. Data Collection: information (people's image) stored on Tinder's backend server gets downloaded using user's unique token found in Tinder's source code - making sure that people are within reasonable radius, not randomly selected from the entire globe.<br><br>1. Classification & Labelling: create a simple user interface using Python's TKinter library, user labels each picture by left/right clicking. An '0' or '1' will then be added to the start of each file name for clarity.<br><br>2. Pre-Processing (In Progress): convert images to greyscale and cut out only the part that contains person by using Python's Pillow libary and TensorFlow's Object Detection API. Picture attached below as example.</p>
+                <img id="second" src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/example%20pic.png">
+                <div class="repolink">
+                    <button><a href="https://github.com/bayareahomelander/Tinder-Swipe-AI" target="_blank">GitHub Repo</a></button>
+                    <button><a href="https://github.com/joelbarmettlerUZH/auto-tinder" target="_blank">Picture Source</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nba" id="nba">
+        <div class="max-width">
+            <h2 class="title">1. Predictive Model: NBA MVP</h2>
+            <p id="begin"><i>Summary: this project collects a variety of data from Basketball-Reference.com for the purpose of predicting the next league MVP in the NBA. Data consists of three categories: MVP votings, team records and player's per-game stats.</i></p>
+            <div class="nba-content">
+                <div class="column left">
+                    <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/mvp%20votes.png">
+                    <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/team%20record.png">
+                    <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/per%20game.png">
+                </div>
+                <div class="column right">
+                    <p>Graph on the left shows the final results of MVP race each season - which are the most fundamental stats of this project, as well as some intuitive stats (e.g. Games played (G), points per game (PTS), etc).<br><br>While these stats are essential to the outcome, we will also be looking at some mroe advanced personal stats (per-game) and team records.</p>
+                    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+                    <p>The graph "Conference Standing" shows each team's record this past season (2021-22).<br><br>Team record plays a part as MVPs are considered influential to team performance. A losing record will negatively impact candidate's chance of gaining votes even though player has an outstanding personal performance.<br><br>In other words, collective performance impacts MVP race, depsite the award being an individual achievement.</p>
+                    <p><br><br><br><br><br><br></p>
+                    <p><br><br>Lastly, Per. The PER sums up all a player's positive accomplishments, subtracts the negative accomplishments, and returns a per-minute rating of a player's performance.<br><br>PER takes into account accomplishments, such as field goals, free throws, 3-pointers, assists, rebounds, blocks and steals, and negative results, such as missed shots, turnovers and personal fouls.</p>
+                </div>
+            </div>
+            <p>*Conclusion: by feeding machine learning models data, eliminating null values and less representative columns, the final outcome has been able to reach a mean_ap (Mean Average Precision) of <i>0.8544</i> using RandomForestRegressor from SciKit-Learn. More details on GitHub.</p>
+            <div class="repolink">
+                <button><a href="https://github.com/bayareahomelander/Prediction-on-NBA-MVP" target="_blank">GitHub Repo</a></button>
+                <button><a href="https://Basketball-Reference.com" target="_blank">Picture Source</a></button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, 
+body,
+#background {
+  width: 100vw;
+  min-height: 100vh;
+  transition: all 1s ease;
+  background: url("https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/ios-14-stock.jpeg");
+  background-attachment: fixed;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 9999;
+    background: #c2cccf;
+    padding: 30px 0;
+    width: 100%;
+    font-family: "Ubuntu", system-ui;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 5px #000;
+}
+
+.navbar.sticky{
+    padding: 10px 0;
+    background: #c2cccf;
+}
+
+.navbar .menu li a{
+    color: #1c1c1e;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: all 0.5s ease;
+}
+
+.navbar .menu li a:hover{
+    color: #a1997e;
+}
+
+.menu-btn{
+    color: #1c1c1e;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-btn:hover{
+    color: #a1997e;
+    transition: 0.5s ease;
+}
+
+.navbar .logo a{
+    color: #1c1c1e;;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.scroll{
+    position: fixed;
+    background: #e9e5df;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    color: #000;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 9999;
+    font-size: 20px;
+    border-radius: 10px;
+    pointer-events: auto;
+    transition: all 0.5s ease;
+    border: 2px solid #fff;
+}
+
+.scroll:hover{
+    transition: color 0.5s ease;
+}
+
+.scroll .show{
+    pointer-events: auto;
+    bottom: 30px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1178px){
+    .max-width{
+        padding: 0 50px;
+    }
+
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+
+    .menu-btn i.active:before{
+        content: '\f00d';
+    }
+
+    .navbar .menu{
+        position: fixed;
+        background: #e9e5df;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.5s ease;
+    }
+
+    .navbar .menu li{
+        display: block;
+    }
+
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px;
+        font-size: 25px;
+    }
+
+    .navbar .menu.active{
+        left: 0;
+    }
+}
+
+.tinder{
+    padding-top: 10%;
+    font-family: 'Ubuntu', system-ui;
+}
+
+.title{
+    color: #e9e5df;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Ubuntu', system-ui;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+#first, #second, .wooden-fish img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#second{
+    margin-top: 10px;
+}
+
+.tinder-content p{
+    color: #e9e5df;
+    margin-top: 10px;
+}
+
+.repolink{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-family: "Ubuntu", system-ui;
+    display: inline-block;
+    background: #e9e5df;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px -3px #000;
+}
+
+button a{
+    color: #000;
+}
+
+.nba .title{
+    margin-top: 60px;
+}
+
+.nba-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#begin{
+    font-size: 20px;
+    font-family: "Ubuntu", system-ui;
+    color: #e9e5df;
+    margin-bottom: 10px;
+}
+
+.nba .nba-content .left{
+    width: 50%
+}
+
+.nba .left img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.nba .nba-content .right{
+    width: 50%;
+}
+
+.nba p{
+    font-family: "Ubuntu", system-ui;
+    color: #e9e5df;
+    text-align: justify;
+    transition: all 0.5s ease;
+    margin-left: 15px;
+}
+
+.nba .title, .wooden-fish .title{
+    margin-top: 80px;
+}
+
+.wooden-fish p{
+    font-family: "Ubuntu", system-ui;
+    color: #e9e5df;
+    text-align: center;
+    transition: all 0.5s ease;
+    font-size: 25px;
+}
+
+.wooden-fish button{
+    display: block;
+    margin: 0 auto;
+}
+
+@media (prefers-color-scheme: dark){
+    body, html{
+        background: url("https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/download.jpeg");
+        background-attachment: fixed;
+    }
+
+    .navbar, .navbar.sticky, .scroll{
+        background: #1c1c1e;
+        color: #e9e5df;
+    }
+
+    .navbar .menu{
+        background: #1c1c1e;
+    }
+
+    .navbar .logo a, .navbar .menu li a, .menu-btn, .tinder-content p{
+        color: #e9e5df
+    }
+
+    button{
+        background: #1c1c1e;
+    }
+
+    button a{
+        color: #e9e5df;
+    }
+}
