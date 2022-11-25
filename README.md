@@ -2,6 +2,8 @@
 
 This is a fully-functional, interactive personal portfolio website. The frontend is built using HTML, CSS and JavaScript; contains a multitude of features such as embedded external links, animation (jQuery), responsive media (layouts automatically adjust as the window resizes). Below are screenshots of some of the features.
 
+**2022-11-24: Added hyperlink to title 'Projects', which user will be redirected to the projects subpage - a new .html webpage that contains more detailed information on some selected projects; page inherits main page's design pattern.**
+
 **2022-11-21: Added darkmode: website will now automatically change its tone to match system settings; added different wallpapers and changed button colors accordingly; fixed the bug where the menu won't disapper when the options are clicked.**
 
 **2022-11-10: Added shawdow effect for buttons and cards; no longer blends into background color; popup prompts with phone number and email address will now show up when corresponding icons are clicked.**
@@ -32,6 +34,14 @@ This is a fully-functional, interactive personal portfolio website. The frontend
 ![image](https://user-images.githubusercontent.com/110600178/203603193-9fffd3b0-9cca-488f-bab3-111d71778410.png)
 
 *5. This section shows past work experiences (company, time period and title) and college (name, degree) in the form of timeline. Education and professional experiences are designed to be on different side of the line.*
+
+![image](https://user-images.githubusercontent.com/110600178/203908815-67eee443-6cdc-40d3-9628-96c239d5fa04.png)
+
+*6. General layout of subpage: Projects. User will be redirected back to home page by clicking either Home or the 'Paco Portfolio' logo in the upper left-hand corner.*
+
+![image](https://user-images.githubusercontent.com/110600178/203909083-e0d1e27d-f641-4667-8f65-6a02d8600d6e.png)
+
+*7. Each project comes with two links at the end: GitHub Repo, which redirects to corresponding GitHub page; Picture Source gives credit to the original author.*
 
 **Libraries Used:**
 
