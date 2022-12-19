@@ -26,7 +26,7 @@
                 <li><a href="#tinder">Tinder</a></li>
                 <li><a href="#nba">NBA</a></li>
                 <li><a href="#">LeetCode</a></li>
-                <li><a href="#">More</a></li>
+                <li><a href="https://github.com/bayareahomelander?tab=repositories" target="_blank">More</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -49,32 +49,38 @@
         </div>
     </div>
 
-    <div class="nba" id="nba">
+    <div class="nba">
         <div class="max-width">
-            <h2 class="title">1. Predictive Model: NBA MVP</h2>
-            <p id="begin"><i>Summary: this project collects a variety of data from Basketball-Reference.com for the purpose of predicting the next league MVP in the NBA. Data consists of three categories: MVP votings, team records and player's per-game stats.</i></p>
-            <div class="nba-content">
-                <div class="column left">
+            <div class="title">1. Predictive Modelling on NBA MVP</div>
+            <div class="container">
+                <div class="image">
                     <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/mvp%20votes.png">
-                    <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/team%20record.png">
-                    <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/per%20game.png">
                 </div>
-                <div class="column right">
-                    <p>Graph on the left shows the final results of MVP race each season - which are the most fundamental stats of this project, as well as some intuitive stats (e.g. Games played (G), points per game (PTS), etc).<br><br>While these stats are essential to the outcome, we will also be looking at some mroe advanced personal stats (per-game) and team records.</p>
-                    <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
-                    <p>The graph "Conference Standing" shows each team's record this past season (2021-22).<br><br>Team record plays a part as MVPs are considered influential to team performance. A losing record will negatively impact candidate's chance of gaining votes even though player has an outstanding personal performance.<br><br>In other words, collective performance impacts MVP race, depsite the award being an individual achievement.</p>
-                    <p><br><br><br><br><br><br></p>
-                    <p><br><br>Lastly, Per. The PER sums up all a player's positive accomplishments, subtracts the negative accomplishments, and returns a per-minute rating of a player's performance.<br><br>PER takes into account accomplishments, such as field goals, free throws, 3-pointers, assists, rebounds, blocks and steals, and negative results, such as missed shots, turnovers and personal fouls.</p>
+                <div class="text">
+                    <p>Graph on the left shows the final results of MVP race each season - which are the most fundamental stats of this project, as well as some intuitive stats (e.g. Games played (G), points per game (PTS), etc).<br><br>While these stats are essential to the outcome, we will also be looking at some more advanced personal stats (per-game) and team records.<br><br><a href="https://www.basketball-reference.com/awards/mvp.html" target="_blank">Link to page</a></p>
                 </div>
             </div>
-            <p>*Conclusion: by feeding machine learning models data, eliminating null values and less representative columns, the final outcome has been able to reach a mean_ap (Mean Average Precision) of <i>0.8544</i> using RandomForestRegressor from SciKit-Learn. More details on GitHub.</p>
+            <div class="container">
+                <div class="image">
+                    <img src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/team%20record.png">
+                </div>
+                <div class="text">
+                    <p>The graph "Conference Standing" shows each team's record this past season (2021-22).<br><br>Team record plays a part as MVPs are considered influential to team performance. A losing record will negatively impact candidate's chance of gaining votes even though player has an outstanding personal performance.<br><br>In other words, collective performance impacts MVP race, despite the award being an individual achievement.<br><br><a href="https://www.basketball-reference.com/leagues/NBA_2022_standings.html" target="_blank">Link to page</a></p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="image">
+                    <img id="per" src="https://raw.githubusercontent.com/bayareahomelander/Portfolio-Website/main/img/per%20game.png">
+                </div>
+                <div class="text">
+                    <p>Lastly, Per. The PER sums up all a player's positive accomplishments, subtracts the negative accomplishments, and returns a per-minute rating of a player's performance.<br><br>PER takes into account accomplishments, such as field goals, free throws, 3-pointers, assists, rebounds, blocks and steals, and negative results, such as missed shots, turnovers and personal fouls.<br><br><a href="https://www.basketball-reference.com/leagues/NBA_2022_per_game.html" target="_blank">Link to page</a></p>
+                </div>
+            </div>
             <div class="repolink">
                 <button><a href="https://github.com/bayareahomelander/Prediction-on-NBA-MVP" target="_blank">GitHub Repo</a></button>
-                <button><a href="https://Basketball-Reference.com" target="_blank">Picture Source</a></button>
+                <button><a href="https://basketball-reference.com" target="_blank">Picture Source</a></button>
             </div>
         </div>
     </div>
-
-
 </body>
 </html>

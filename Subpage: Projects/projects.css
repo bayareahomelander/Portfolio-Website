@@ -167,7 +167,8 @@ html{
     text-underline-offset: 4px;
 }
 
-#first, #second, .wooden-fish img{
+img {
+    width: 700px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -179,9 +180,10 @@ html{
     margin-top: 10px;
 }
 
-.tinder-content p{
+p{
     color: #e9e5df;
     margin-top: 10px;
+    font-family: 'Ubuntu', system-ui;
 }
 
 .repolink{
@@ -212,63 +214,21 @@ button a{
     color: #000;
 }
 
-.nba .title{
-    margin-top: 60px;
+.nba{
+    margin-top: 50px;
 }
 
-.nba-content{
+.container{
+    padding-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
 }
 
-#begin{
-    font-size: 20px;
-    font-family: "Ubuntu", system-ui;
-    color: #e9e5df;
-    margin-bottom: 10px;
-}
-
-.nba .nba-content .left{
-    width: 50%
-}
-
-.nba .left img{
-    border-radius: 10px;
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.nba .nba-content .right{
-    width: 50%;
-}
-
-.nba p{
-    font-family: "Ubuntu", system-ui;
-    color: #e9e5df;
-    text-align: justify;
-    transition: all 0.5s ease;
-    margin-left: 15px;
-}
-
-.nba .title, .wooden-fish .title{
-    margin-top: 80px;
-}
-
-.wooden-fish p{
-    font-family: "Ubuntu", system-ui;
-    color: #e9e5df;
-    text-align: center;
-    transition: all 0.5s ease;
-    font-size: 25px;
-}
-
-.wooden-fish button{
-    display: block;
-    margin: 0 auto;
+.nba a{
+    color: #fff;
+    text-decoration-line: underline;
 }
 
 @media (prefers-color-scheme: dark){
