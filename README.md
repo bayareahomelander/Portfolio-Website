@@ -2,6 +2,8 @@
 
 This is a fully-functional, interactive personal portfolio website. The frontend is built using HTML, CSS and JavaScript; contains a multitude of features such as embedded external links, animation (jQuery), responsive media (layouts automatically adjust as the window resizes). Below are screenshots of some of the features.
 
+**2022-12-19: Redesigned layout of Projects page; unified image size and font style; added links to original data source at the end of each paragraph respectively under NBA section.**
+
 **2022-11-24: Added hyperlink to title 'Projects', which user will be redirected to the projects subpage - a new .html webpage that contains more detailed information on some selected projects; page inherits main page's design pattern.**
 
 **2022-11-21: Added darkmode: website will now automatically change its tone to match system settings; added different wallpapers and changed button colors accordingly; fixed the bug where the menu won't disapper when the options are clicked.**
