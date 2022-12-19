@@ -226,7 +226,7 @@ button a{
     column-gap: 10px;
 }
 
-.nba a{
+.nba .text a{
     color: #fff;
     text-decoration-line: underline;
 }
